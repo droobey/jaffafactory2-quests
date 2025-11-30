@@ -73,7 +73,6 @@
 		{
 			id: "6F6DAC0BF6919DD7"
 			tasks: [{
-				count: 32L
 				id: "47EF15B97264E05A"
 				item: "minecraft:sugar_cane"
 				type: "item"
@@ -100,7 +99,6 @@
 		{
 			id: "4216626CD058F3F6"
 			tasks: [{
-				count: 2L
 				id: "5EDF4CB2B82220BD"
 				item: "minecraft:egg"
 				type: "item"
@@ -155,7 +153,6 @@
 		{
 			id: "55DBD4C9D5F94740"
 			rewards: [{
-				count: 16
 				id: "4AD6E2232C006F5D"
 				item: "minecraft:wheat"
 				type: "item"
@@ -192,7 +189,6 @@
 				type: "item"
 			}]
 			tasks: [{
-				count: 8L
 				id: "17DA1DB1312C8173"
 				item: "minecraft:bone"
 				type: "item"
@@ -276,7 +272,6 @@
 				xp: 25
 			}]
 			tasks: [{
-				count: 8L
 				id: "50385823FBD8261F"
 				item: "jaffabricate:orange"
 				type: "item"
