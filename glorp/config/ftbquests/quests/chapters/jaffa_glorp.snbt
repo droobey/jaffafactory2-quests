@@ -1,0 +1,130 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "jaffa_glorp"
+	group: "3D771AC0FE8A618A"
+	icon: "create:encased_chain_drive"
+	id: "2FDA091A90E616BB"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			id: "4621BB45FEFBBA0E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "18F939F21BDB1E58"
+				table_id: 7529843411672702712L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "7362BE5AB751CB7F"
+					item: "create_hypertube:hypertube_entrance"
+					type: "item"
+				}
+				{
+					id: "639F54FC685FD7B0"
+					item: "create_hypertube:hypertube_accelerator"
+					type: "item"
+				}
+				{
+					id: "2F1291B730EACA8A"
+					item: "create_hypertube:hypertube"
+					type: "item"
+				}
+			]
+			title: "Hypertubes"
+			x: -4.5d
+			y: 1.5d
+		}
+		{
+			id: "33EC4BDE3ECB07B0"
+			rewards: [
+				{
+					id: "033DEF5DEDCF9E7E"
+					item: "createaddition:tesla_coil"
+					type: "item"
+				}
+				{
+					id: "60665FB03C08FCBD"
+					item: "jaffabricate:orange_jelly_slime_spawn_egg"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6E37238B03BEDDB5"
+				item: "createaddition:tesla_coil"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 1.5d
+		}
+		{
+			id: "7B9356B89CE4ACED"
+			rewards: [{
+				count: 2
+				id: "264434C25A12CE86"
+				item: "railways:track_phantom"
+				type: "item"
+			}]
+			tasks: [{
+				count: 2L
+				id: "4CD211A407E276AB"
+				item: { Count: 2, id: "railways:track_phantom" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 3.0d
+		}
+		{
+			id: "310CC7C84FC0A895"
+			rewards: [{
+				count: 8
+				id: "4089B4A3C9987C1B"
+				item: "minecraft:chain"
+				type: "item"
+			}]
+			tasks: [{
+				count: 2L
+				id: "2099AABF5F37F51F"
+				item: { Count: 2, id: "create:package_frogport" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 3.0d
+		}
+		{
+			id: "1BA688973C3C0C14"
+			tasks: [{
+				count: 2L
+				id: "7F749B79EEB6217D"
+				item: "create:redstone_contact"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 3.0d
+		}
+		{
+			id: "734C3D787671BFBE"
+			tasks: [{
+				count: 2L
+				id: "0B25522B26FA859A"
+				item: { Count: 2, id: "create:portable_storage_interface" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			id: "60EC9885307687A0"
+			tasks: [{
+				id: "0ACAE3E412D4B083"
+				item: "create:mechanical_pump"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+	]
+	title: "Glorp"
+}

@@ -1,0 +1,72 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "jaffa_quest"
+	group: "3D771AC0FE8A618A"
+	icon: {
+		Count: 1
+		id: "ad_astra:tier_1_rocket"
+		tag: { }
+	}
+	id: "1310B23825A20623"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["0C58E5252692131D"]
+			id: "0816F4C33F95DE0D"
+			subtitle: "No scooping it up with your hands"
+			tasks: [{
+				id: "408A7790AB1A3F4D"
+				item: "ad_astra:oil_bucket"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1A5027C1E1AF9462"]
+			id: "7DC2EAD3E2B44A88"
+			subtitle: "...and then we'll go to space!"
+			tasks: [{
+				id: "20C605B2B27714D1"
+				item: {
+					Count: 1
+					id: "ad_astra:tier_1_rocket"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			description: ["This section is still work in progress, mainly as Jaffa Quest 2 is still ongoing"]
+			icon: "ad_astra:wrench"
+			id: "0C58E5252692131D"
+			shape: "gear"
+			size: 1.5d
+			subtitle: "Work in Progress!"
+			tasks: [{
+				id: "265CE9E8C9FBCFDC"
+				title: "WIP!"
+				type: "checkmark"
+			}]
+			x: -5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0816F4C33F95DE0D"]
+			id: "1A5027C1E1AF9462"
+			subtitle: "I'll put a few handfuls up my..."
+			tasks: [{
+				id: "15D6FA4251A4327C"
+				item: "ad_astra:fuel_bucket"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 0.0d
+		}
+	]
+	title: "Jaffa Quest"
+}

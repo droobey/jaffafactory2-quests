@@ -1,0 +1,382 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "jaffa_factory"
+	group: "3D771AC0FE8A618A"
+	icon: "jaffabricate:jaffa_cake"
+	id: "59E71919B9442108"
+	images: [{
+		height: 4.0d
+		image: "jaffa:textures/jaffafactory2logo.png"
+		rotation: 0.0d
+		width: 8.0d
+		x: -23.0d
+		y: -18.5d
+	}]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"4AEDB099ACAC7003"
+				"5E891EC4B4D154A0"
+				"37069BA84BC55DA5"
+			]
+			id: "5D0EB45BE6E7BEFF"
+			rewards: [{
+				id: "1F21055DF435C6B0"
+				type: "xp"
+				xp: 120
+			}]
+			tasks: [{
+				id: "37D37003C1206CD3"
+				item: "create:chocolate_bucket"
+				type: "item"
+			}]
+			title: "Chocolate"
+			x: -27.0d
+			y: -16.0d
+		}
+		{
+			dependencies: ["1DEBE83818CB07F5"]
+			id: "4AEDB099ACAC7003"
+			tasks: [{
+				id: "47F16F8BBDDE9F65"
+				item: "minecraft:milk_bucket"
+				type: "item"
+			}]
+			title: "Milk"
+			x: -28.0d
+			y: -18.0d
+		}
+		{
+			icon: "minecraft:cow_spawn_egg"
+			id: "1DEBE83818CB07F5"
+			tasks: [{
+				id: "16039C95CC906804"
+				title: "Cows"
+				type: "checkmark"
+			}]
+			x: -30.5d
+			y: -18.0d
+		}
+		{
+			id: "37069BA84BC55DA5"
+			tasks: [{
+				id: "7391405409DD70FA"
+				item: "minecraft:cocoa_beans"
+				type: "item"
+			}]
+			x: -30.5d
+			y: -16.0d
+		}
+		{
+			id: "6F6DAC0BF6919DD7"
+			tasks: [{
+				count: 32L
+				id: "47EF15B97264E05A"
+				item: "minecraft:sugar_cane"
+				type: "item"
+			}]
+			x: -30.5d
+			y: -14.0d
+		}
+		{
+			dependencies: ["6F6DAC0BF6919DD7"]
+			id: "5E891EC4B4D154A0"
+			rewards: [{
+				id: "59A306C5C0476803"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "1EC252C55AEFF801"
+				item: "minecraft:sugar"
+				type: "item"
+			}]
+			x: -28.0d
+			y: -14.0d
+		}
+		{
+			id: "4216626CD058F3F6"
+			tasks: [{
+				count: 2L
+				id: "5EDF4CB2B82220BD"
+				item: "minecraft:egg"
+				type: "item"
+			}]
+			x: -30.5d
+			y: -12.5d
+		}
+		{
+			dependencies: [
+				"5E891EC4B4D154A0"
+				"4216626CD058F3F6"
+				"03EFDAF0D5360FB2"
+			]
+			id: "237BCFCAA19FA4B9"
+			tasks: [{
+				id: "3641ECCE8668B85C"
+				item: "jaffabricate:jaffa_base"
+				type: "item"
+			}]
+			x: -26.5d
+			y: -12.5d
+		}
+		{
+			dependencies: [
+				"5D0EB45BE6E7BEFF"
+				"02D0C7A60CD3B7E2"
+			]
+			id: "1C102D4F3766C356"
+			rewards: [
+				{
+					id: "114F622F871D6802"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1774E1515191A355"
+					table_id: 2869259641864553108L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			size: 1.25d
+			tasks: [{
+				id: "10DAF2EFBB3BCE27"
+				item: "jaffabricate:jaffa_cake"
+				type: "item"
+			}]
+			x: -19.0d
+			y: -16.0d
+		}
+		{
+			id: "55DBD4C9D5F94740"
+			rewards: [{
+				count: 16
+				id: "4AD6E2232C006F5D"
+				item: "minecraft:wheat"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1EB0A2861E2F55C4"
+				item: "minecraft:wheat"
+				type: "item"
+			}]
+			x: -30.5d
+			y: -11.0d
+		}
+		{
+			dependencies: ["55DBD4C9D5F94740"]
+			id: "03EFDAF0D5360FB2"
+			rewards: [{
+				id: "242D0C16B8D7E415"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "3D6E7946259538F6"
+				item: "create:wheat_flour"
+				type: "item"
+			}]
+			x: -28.5d
+			y: -11.0d
+		}
+		{
+			id: "36783FFA0F2345CC"
+			rewards: [{
+				id: "38F5EDBB78B9D880"
+				item: "minecraft:bone_block"
+				type: "item"
+			}]
+			tasks: [{
+				count: 8L
+				id: "17DA1DB1312C8173"
+				item: "minecraft:bone"
+				type: "item"
+			}]
+			x: -30.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["36783FFA0F2345CC"]
+			id: "44D4C3749D43240D"
+			rewards: [{
+				id: "129711665B5149C5"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "2E1F22FB78C52AD8"
+				item: "minecraft:white_dye"
+				type: "item"
+			}]
+			x: -28.5d
+			y: -9.5d
+		}
+		{
+			id: "421636F89EA1B9D3"
+			tasks: [{
+				id: "05DAF6136E579B2C"
+				item: "minecraft:cactus"
+				type: "item"
+			}]
+			x: -30.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["421636F89EA1B9D3"]
+			id: "1C6D2DB82A49832D"
+			rewards: [{
+				id: "64EBACA782CFE96A"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "0CB87E41A6067D0A"
+				item: "minecraft:green_dye"
+				type: "item"
+			}]
+			x: -28.5d
+			y: -8.0d
+		}
+		{
+			dependencies: [
+				"44D4C3749D43240D"
+				"1C6D2DB82A49832D"
+			]
+			id: "58F17DF7B1FF0499"
+			tasks: [{
+				id: "394FB60D551BBE3C"
+				item: "minecraft:lime_dye"
+				type: "item"
+			}]
+			x: -26.5d
+			y: -9.5d
+		}
+		{
+			id: "6C76E12B6D3738A0"
+			subtitle: "Oh orange tree, oh orange tree"
+			tasks: [{
+				id: "2B01F002770514DB"
+				item: "jaffabricate:orange_sapling"
+				type: "item"
+			}]
+			x: -30.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["6C76E12B6D3738A0"]
+			id: "4E53072BD9034D71"
+			rewards: [{
+				id: "67AEBF7D2E7A6B19"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				count: 8L
+				id: "50385823FBD8261F"
+				item: "jaffabricate:orange"
+				type: "item"
+			}]
+			x: -28.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["4E53072BD9034D71"]
+			id: "7505AE48F0E83119"
+			rewards: [
+				{
+					id: "0C6162E8793523DA"
+					item: "jaffabricate:orange_juice_bottle"
+					type: "item"
+				}
+				{
+					id: "041E174B74596B41"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "3B822CE574959C56"
+				item: "jaffabricate:orange_juice_bucket"
+				type: "item"
+			}]
+			x: -24.0d
+			y: -6.5d
+		}
+		{
+			dependencies: [
+				"34F1377A89A0D8FC"
+				"58F17DF7B1FF0499"
+			]
+			id: "2ED9C495A029D07D"
+			rewards: [{
+				id: "42362E9059461C01"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "0285E89AFE1D6FD9"
+				item: "minecraft:slime_ball"
+				type: "item"
+			}]
+			x: -24.5d
+			y: -11.0d
+		}
+		{
+			dependencies: ["03EFDAF0D5360FB2"]
+			dependency_requirement: "all_started"
+			id: "34F1377A89A0D8FC"
+			tasks: [{
+				id: "015655848D356295"
+				item: "create:dough"
+				type: "item"
+			}]
+			x: -26.5d
+			y: -11.0d
+		}
+		{
+			dependencies: [
+				"74BF672F9DBDD144"
+				"237BCFCAA19FA4B9"
+			]
+			id: "02D0C7A60CD3B7E2"
+			rewards: [{
+				id: "50E721295A4957D3"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [{
+				id: "6D6CB38EB2B2A61C"
+				item: "jaffabricate:bare_jaffa_cake"
+				type: "item"
+			}]
+			x: -20.5d
+			y: -12.5d
+		}
+		{
+			dependencies: [
+				"7505AE48F0E83119"
+				"2ED9C495A029D07D"
+			]
+			dependency_requirement: "all_started"
+			id: "74BF672F9DBDD144"
+			rewards: [{
+				id: "0EE4DFE92CD1B333"
+				type: "xp"
+				xp: 160
+			}]
+			tasks: [{
+				id: "1AC546AA17AC4F56"
+				item: "jaffabricate:orange_jelly"
+				type: "item"
+			}]
+			x: -21.5d
+			y: -11.0d
+		}
+	]
+	title: "Jaffa Cakes"
+}

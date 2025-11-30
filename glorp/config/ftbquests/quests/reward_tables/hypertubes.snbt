@@ -1,0 +1,11 @@
+{
+	id: "687F60B027111EF8"
+	loot_size: 1
+	order_index: 1
+	rewards: [
+		{ count: 4, item: "create_hypertube:hypertube", weight: 1.25f }
+		{ item: "create_hypertube:hypertube_accelerator" }
+		{ count: 2, item: "create_hypertube:hypertube_entrance" }
+	]
+	title: "hypertubes"
+}

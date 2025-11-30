@@ -1,0 +1,166 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "packing"
+	group: "3D771AC0FE8A618A"
+	icon: "jaffabricate:jaffa_pallet"
+	id: "47BC2607EEDDF298"
+	images: [
+		{
+			height: 1.0d
+			hover: ["Jaffa Cakes Required!"]
+			image: "jaffabricate:item/jaffa_cake"
+			rotation: 0.0d
+			width: 1.0d
+			x: -24.5d
+			y: -10.5d
+		}
+		{
+			height: 1.0d
+			hover: ["Tie it up"]
+			image: "minecraft:item/string"
+			rotation: 0.0d
+			width: 1.0d
+			x: -21.0d
+			y: -11.0d
+		}
+	]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"2EA3BFB7FBDDDA1F"
+				"1C102D4F3766C356"
+			]
+			id: "40FB10D3186EBA3E"
+			shape: "diamond"
+			tasks: [{
+				id: "6A915953BC1CC115"
+				item: "jaffabricate:jaffa_box"
+				type: "item"
+			}]
+			x: -24.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["6F6DAC0BF6919DD7"]
+			id: "664B7EDF7593379D"
+			tasks: [{
+				id: "6D422B4E9B08D09C"
+				item: "minecraft:paper"
+				type: "item"
+			}]
+			x: -29.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["4E53072BD9034D71"]
+			dependency_requirement: "all_started"
+			id: "2683AA16E73D01FD"
+			tasks: [{
+				id: "35B8CAAF4A703BF6"
+				item: "minecraft:orange_dye"
+				type: "item"
+			}]
+			x: -29.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["2683AA16E73D01FD"]
+			description: ["TIP: You can haunt orange dye to make blue dye!"]
+			id: "4C399D869AF0B377"
+			tasks: [{
+				id: "2F2EADDB488D384D"
+				item: "minecraft:blue_dye"
+				type: "item"
+			}]
+			x: -27.5d
+			y: -6.5d
+		}
+		{
+			dependencies: [
+				"2683AA16E73D01FD"
+				"4C399D869AF0B377"
+				"664B7EDF7593379D"
+			]
+			dependency_requirement: "all_started"
+			id: "67807374AC982779"
+			tasks: [{
+				id: "5CE0761494FE92DA"
+				item: "jaffabricate:paperboard"
+				type: "item"
+			}]
+			x: -27.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["67807374AC982779"]
+			id: "2EA3BFB7FBDDDA1F"
+			tasks: [{
+				id: "7AA3206F50FCC9D1"
+				item: "jaffabricate:jaffa_box_empty"
+				type: "item"
+			}]
+			x: -25.5d
+			y: -8.5d
+		}
+		{
+			id: "1E84DBD5AD5C605C"
+			tasks: [{
+				id: "0CFBA23E1D0E87E1"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:wooden_slabs"
+					}
+				}
+				title: "Any #minecraft:wooden_slabs"
+				type: "item"
+			}]
+			title: "Wooden Slabs"
+			x: -23.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["1E84DBD5AD5C605C"]
+			id: "0BE78C961DBD9680"
+			tasks: [{
+				id: "5B9BED6B66E8B64D"
+				item: "jaffabricate:pallet_empty"
+				type: "item"
+			}]
+			x: -22.0d
+			y: -8.5d
+		}
+		{
+			dependencies: [
+				"0BE78C961DBD9680"
+				"40FB10D3186EBA3E"
+			]
+			id: "19B9B09784BF81A9"
+			subtitle: "Will spill everywhere"
+			tasks: [{
+				id: "17503036D83A8B8E"
+				item: "jaffabricate:pallet_full"
+				type: "item"
+			}]
+			x: -21.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["19B9B09784BF81A9"]
+			id: "5D0600C09962D594"
+			subtitle: "Jaffa Cakes secured"
+			tasks: [{
+				id: "0EF2B69B689C7543"
+				item: "jaffabricate:jaffa_pallet"
+				type: "item"
+			}]
+			x: -20.0d
+			y: -11.0d
+		}
+	]
+	title: "Packing"
+}

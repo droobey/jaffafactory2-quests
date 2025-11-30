@@ -1,0 +1,10 @@
+{
+	id: "27D1A87139B38294"
+	loot_size: 1
+	order_index: 0
+	rewards: [
+		{ item: "jaffabricate:giant_jaffa_cake" }
+		{ item: "jaffabricate:jaffa_cake_block" }
+	]
+	title: "jaffas"
+}
