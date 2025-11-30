@@ -51,7 +51,7 @@ If your using the [official Jaffa Factory 2 modpack](https://www.curseforge.com/
 
 ## Installation
 
-1. Download the latest release zip file
+1. Download the latest [release zip file](https://github.com/droobey/jaffafactory2-quests/releases/latest) (source code (zip))
 2. Open your modpacks folder.
 3. Extract the contents of the zips "jaffafactory2" folder to your modpack
 4. For the extra glorp chapter extract the contents of the "glorp" folder to your modpack
