@@ -1,6 +1,6 @@
 # Jaffa Factory 2 Quests
 A recreation of the quest book from the Yogscast series Jaffa Factory 2, with a few extra quests.
-Designed for any modpack with FTB Quests
+Designed for any modpack with [FTB Quests](https://www.curseforge.com/minecraft/mc-mods/ftb-quests-forge)
 
 ## Chapters
 **Jaffa Factory**
@@ -31,6 +31,8 @@ Optional WIP chapter, mainly waiting for Jaffa Quests 2 completion
 ## Dependencies
 These quests require the following mods:
 
+[FTB Quests](https://www.curseforge.com/minecraft/mc-mods/ftb-quests-forge)
+
 [Create](https://modrinth.com/mod/create)
 
 [Create: Jaffabricate](https://modrinth.com/mod/jaffabricate)
@@ -47,7 +49,8 @@ The Jaffa Quest Chapter requires the following additional mods:
 
 [Ad Astra](https://modrinth.com/mod/ad-astra)
 
-If your using the [official Jaffa Factory 2 modpack](https://www.curseforge.com/minecraft/modpacks/jaffa-factory-2), you're all set!
+If your using the [official Jaffa Factory 2 modpack](https://www.curseforge.com/minecraft/modpacks/jaffa-factory-2), you're nearly set, you just need
+to add [FTB Quests](https://www.curseforge.com/minecraft/mc-mods/ftb-quests-forge) to the modpack.
 
 ## Installation
 
